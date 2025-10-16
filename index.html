@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tech Sisters — Mulheres que criam tecnologia</title>
+  <meta name="description" content="Tech Sisters é um grupo de mulheres apaixonadas por tecnologia. Unidas para inovar e gerar soluções criativas desde 2025 através do Bootcamp Full Stack da Generation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo-techsisters.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Tech Sisters — Início">
+        <img src="img/logo.png"Logo Tech Sisters" class="brand-logo" />
+        <span class="brand-name">TechSisters</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+       <a href="#">Valores</a>
+        <a href="https://github.com/Projeto-Integrador-Grupo-01">GitHub</a>
+        <a class="btn btn-small" href="#contato">Participar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Mulheres que <span class="underline">criam</span> tecnologia</h1>
+          <p class="lead">
+            O <strong>Tech Sisters</strong> é um grupo de mulheres apaixonadas por tecnologia!
+            Unidas com o propósito de inovar e gerar soluções criativas, desde 2025,
+            através do <strong>Bootcamp Full Stack da Generation</strong>.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#contato">Quero participar</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="img/logo.png" alt="Marca Tech Sisters" />
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+      <div class="container grid two">
+        <div>
+          <h2>Quem somos</h2>
+          <p>
+            Somos uma comunidade inclusiva que conecta talentos, acelera carreiras e
+            promove a participação de mulheres em tecnologia. Acreditamos em
+            aprendizado contínuo, colaboração e impacto real no ecossistema.
+          </p>
+          <ul class="bullets">
+            <li>Encontros e estudos orientados por projetos</li>
+            <li>Rede de apoio e oportunidades</li>
+            <li>Mentorias e talks com especialistas</li>
+          </ul>
+        </div>
+        <div class="card emphasis">
+          <h3>Nosso propósito</h3>
+          <p>
+            Criar um espaço seguro e potente para mulheres explorarem, aprenderem e
+            liderarem com tecnologia — do primeiro “Hello, World!” ao deploy em produção.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Valores -->
+    <section id="valores" class="section muted">
+      <div class="container">
+        <h2>Nossos valores</h2>
+        <div class="grid three cards">
+          <article class="card">
+            <h3>Inovação</h3>
+            <p>Experimentar, prototipar e entregar soluções que movem o ponteiro.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contato -->
+    <section id="contato" class="section cta">
+      <div class="container cta-inner">
+        <h2>Vamos construir juntas?</h2>
+        <p>Deixe seu e-mail para receber novidades e convites para os encontros.</p>
+
+        <form class="form" action="#" method="post" onsubmit="alert('Obrigada! Em breve entraremos em contato.'); return false;">
+          <label class="sr-only" for="email">Seu e-mail</label>
+          <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required />
+          <button class="btn" type="submit">Quero fazer parte</button>
+        </form>
+
+        <div class="socials" aria-label="Redes sociais">
+          <a href="https://github.com/Projeto-Integrador-Grupo-01" aria-label="GitHub Tech Sisters">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Tech Sisters — Feito por mulheres que amam tecnologia.</p>
+    </div>
+  </footer>
+
+  <script>
+    // ano automático no rodapé
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
