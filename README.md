@@ -1,166 +1,101 @@
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00C853&center=true&vCenter=true&width=850&lines=Sabor+Local+–+Delivery+Sustentável+de+Alimentos+Naturais!" alt="Typing SVG" />
+  <a href="https://projeto-integrador-grupo-01.github.io/techsisters/" target="_blank">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00C853&center=true&vCenter=true&width=850&lines=🌸+Clique+na+imagem+e+visite+nosso+site!+💻" alt="Tech Sisters - Clique e visite nosso site!" />
   </a>
 </div>
 
-**Grupo:** TechSisters
-**Versão:** 1.0
-**Objetivo:** Conectar restaurantes, produtores locais e consumidores conscientes em uma experiência de delivery saudável, prática e sustentável.
+
+<div align="center">
+<a href="https://projeto-integrador-grupo-01.github.io/techsisters/" target="_blank">
+  <img src="https://projeto-integrador-grupo-01.github.io/techsisters/img/logo.png" alt="Tech Sisters Preview" width="300" />
+</a>
+</div>
 
 ---
 
-## 🧭 Visão de Negócio
-
-O **Sabor Local** nasceu da ideia de unir **tecnologia, propósito e alimentação saudável** em uma única plataforma.
-Nosso objetivo é oferecer uma **solução acessível e sustentável** para conectar **restaurantes, produtores locais, entregadores e consumidores**.
-
-A proposta é criar um **delivery digital de refeições naturais e produtos regionais**, promovendo **conveniência**, **bem-estar** e **responsabilidade ambiental**.
-O sistema organiza e automatiza etapas como **seleção de pratos, pagamento, logística de entrega e avaliações**, garantindo eficiência e impacto positivo.
+O projeto **Tech Sisters** é uma landing page desenvolvida para apresentar e promover iniciativas focadas em mulheres na tecnologia.  
+Esta página foi criada com o objetivo de inspirar, conectar e amplificar a presença feminina no ecossistema tecnológico, destacando oportunidades, eventos e histórias de sucesso.
 
 ---
 
-## 🛠️ Metodologia de Desenvolvimento
+## 🎯 Objetivos do Projeto
 
-O desenvolvimento foi realizado de forma **colaborativa e iterativa**, priorizando aprendizado coletivo e clareza técnica.
-O grupo realizou **brainstorms**, **abstração de requisitos** e **documentação contínua**, garantindo alinhamento entre design, código e propósito.
-
-Pilares principais:
-1. **Simplicidade de uso**
-2. **Sustentabilidade como propósito**
-3. **Escalabilidade para futuras evoluções**
+- Promover a inclusão de mulheres no setor de tecnologia.  
+- Criar uma vitrine digital para o projeto Tech Sisters.  
+- Facilitar o acesso a informações sobre eventos, mentorias e oportunidades.  
+- Mostrar o impacto social da comunidade.
 
 ---
 
-## 🗂️ Documentação e Organização
+## 💻 Tecnologias Utilizadas
 
-A documentação foi elaborada com o **Typora**, utilizando arquivos Markdown para criar um **README.md** padronizado e legível.
-Essa escolha garante uma estrutura clara, ideal para **apresentações e futuras manutenções**.
-
----
-
-## 🔄 Controle de Versão e Colaboração
-
-- Versionamento realizado com **Git**
-- Repositório hospedado no **GitHub**
-- Uso de **commits frequentes** e **revisões em grupo**
+- **HTML5** e **CSS3** para estrutura e estilo da página.  
+- **JavaScript** para interatividade.  
+- **GitHub Pages** para hospedagem gratuita.  
+- Ferramentas de design (como **Figma** e **Canva**) para layout e identidade visual.
 
 ---
 
-## 🚀 Escopo da Primeira Versão
+## 👩‍🍳 Equipe Sabor Local
 
-A primeira entrega do **Sabor Local** foi focada em uma **base sólida de backend**, garantindo o funcionamento essencial de um sistema de delivery.
-
-### ✅ Funcionalidades Implementadas
-- CRUD completo da entidade **Produto**
-- Validações básicas de dados
-- Testes de endpoints via **Insomnia**
-- Estrutura **API RESTful** com boas práticas
-- Banco de dados relacional **MySQL** com **JPA/Hibernate**
-- Deploy local via **Maven** e **Tomcat embutido**
-
-📌 Funcionalidades como **XXXXX**, **XXXXX** e **pedidos** estão planejadas para versões futuras.
+A equipe **Sabor Local** foi responsável por contribuir com o espírito criativo e colaborativo do projeto, trazendo uma perspectiva única que combina tecnologia e cultura.  
+Seu trabalho ajudou a fortalecer a identidade visual e a mensagem da página, tornando o **Tech Sisters** uma iniciativa ainda mais acolhedora e inspiradora.
 
 ---
 
-## 📈 Resultados e Entrega
+## 📁 Estrutura do Projeto
 
-O grupo entregou um **protótipo funcional de backend**, validado com endpoints REST e integração ao banco de dados.
-
-**Principais conquistas:**
-- Domínio de fundamentos em **Java e Spring Boot**
-- Aplicação correta do padrão **MVC e RESTful**
-- Organização técnica e documentação coerente
-- Clareza entre **propósito e sustentabilidade**
-
----
-
-## 🧩 Arquitetura do Sistema
-
-| Componente | Descrição |
-|-------------|------------|
-| **Camadas** | Model, Repository, Service, Controller |
-| **Padrão de Projeto** | MVC (Model-View-Controller) |
-| **API** | RESTful, endpoints padronizados |
-| **Banco de Dados** | MySQL, via JPA/Hibernate |
-| **Deploy Local** | Maven + Tomcat (Spring Boot) |
-
----
-
-## 🍽️ Modelo de Entidade – Produto
-
-```java
-@Entity
-@Table(name = "tb_produtos")
-public class Produto {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    private String nome;
-    private String descricao;
-    private Double preco;
-    private String categoria;
-    private Boolean disponivel;
-
-    // Getters e Setters
-}
+```
+TechSisters/
+├── index.html        # Página principal
+├── style.css         # Estilos da landing page
+├── script.js         # Funcionalidades e animações
+└── assets/           # Imagens e ícones
 ```
 
 ---
 
-## ⚙️ Ferramentas e Tecnologias
+## ⚙️ Como Executar Localmente
 
-| Categoria | Ferramenta |
-|------------|-------------|
-| Linguagem | Java |
-| Framework | Spring Boot |
-| IDE | Eclipse / STS |
-| Banco de Dados | MySQL |
-| ORM | JPA + Hibernate |
-| Teste de API | Insomnia |
-| Dependências | Maven |
-| Servidor | Tomcat embutido |
-| Versionamento | Git + GitHub |
-| Documentação | Typora / SharePoint |
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/tech-sisters.git
+   ```
+2. Abra o arquivo `index.html` no seu navegador.  
+3. A página estará pronta para uso.
 
 ---
 
-## 🧪 Testes
+## 🤝 Contribuições
 
-Foram realizados testes manuais via Insomnia e automatizados (JUnit) para validar:
-- Inserção, atualização e exclusão de produtos
-- Retornos corretos dos endpoints REST
-- Persistência no banco de dados
-- Respostas HTTP adequadas
+Contribuições são bem-vindas!  
+Caso queira sugerir melhorias ou participar do desenvolvimento, siga os passos:
 
----
-
-## 🧱 Desafios e Soluções
-
-| Desafio | Solução |
-|----------|----------|
-| Configuração do banco | Ajuste no application.properties e uso de spring.jpa.hibernate.ddl-auto |
-| Padronização de endpoints | Definição de convenções REST |
-| Divisão de tarefas | Organização via Trello e Git |
-| Testes de API | Uso do Insomnia e validações CRUD |
+1. Faça um fork do repositório.  
+2. Crie uma nova branch:  
+   ```bash
+   git checkout -b feature/nova-funcionalidade
+   ```
+3. Faça suas alterações e realize o commit:  
+   ```bash
+   git commit -m "Adiciona nova funcionalidade"
+   ```
+4. Envie um **pull request**.
 
 ---
 
-## 🌎 Impactos e Benefícios
+## 📄 Licença
 
-- Facilita o acesso a refeições naturais e produtos locais
-- Incentiva o consumo consciente
-- Valoriza pequenos produtores regionais
-- Cria base para integração com front-end e marketplace
-- Demonstra o uso da tecnologia como agente de sustentabilidade
+Este projeto é distribuído sob a **licença MIT**.  
+Consulte o arquivo `LICENSE` para mais informações.
+
+
 
 ---
 
 ## 🙌 Equipe
 
-Desenvolvido por [Tech Sisters]() 🍃
+Desenvolvido por [Tech Sisters](https://projeto-integrador-grupo-01.github.io/techsisters/) 🍃
 
 
 
